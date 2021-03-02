@@ -103,6 +103,7 @@ body{
 	text-align: center;
 	border-radius: 10%;
 	margin-top: 2%;
+	margin-bottom: 1%;
 
 	animation-name: move-title;
 	animation-duration: 4s;
@@ -165,3 +166,20 @@ img:hover{
 	animation-play-state: running;
 }
 
+audio{
+	@include align-img-center;
+}
+
+video{
+	@include align-img-center;
+}
+
+.delorean{
+	width: 720px;
+	heigth: 480px;
+}
+
+.rocket{
+	width: 512px;
+	heigth: 256px;
+}
