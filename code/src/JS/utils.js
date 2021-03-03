@@ -1,13 +1,15 @@
 // Utilities
 
-function createNavBar(){
+import pagOne from "../../src/HTML/pageOne.html";
+
+export function createNavBar(){
 	let navBar = document.createElement("ul");
 	navBar.setAttribute("class","navbar");
 
 	let navElementHome = createNavElement("./index.html", "Pagina Principal");
 	navBar.appendChild(navElementHome);
 
-	let navElementOne = createNavElement("pageOne.html", "1. Manchas");
+	let navElementOne = createNavElement(pagOne, "1. Manchas");
 	navBar.appendChild(navElementOne);
 	
 	let navElementTwo = createNavElement("pageTwo.html", "2. Elevador");
@@ -29,7 +31,7 @@ function createNavBar(){
 	return navBar;
 }
 
-function createNavElement(path, name){
+export function createNavElement(path, name){
 	let navElement = document.createElement("li");
 	let link = document.createElement("a");
 	link.setAttribute("href", path);
@@ -39,7 +41,7 @@ function createNavElement(path, name){
 	return navElement;
 }
 
-function createNavButtons(prevPath, nextPath){
+export function createNavButtons(prevPath, nextPath){
 	let navBar = document.createElement("ul");
 	navBar.setAttribute("class", "navbar");
 
