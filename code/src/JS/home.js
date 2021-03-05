@@ -5,6 +5,7 @@ import {createNavElement} from "../JS/utils";
 import {createNavButtons} from "../JS/utils";
 import pic from "../../res/imagen.jpeg";
 import next from "../HTML/pageOne.html";
+import prev from "../HTML/pageSix.html";
 //import img from "../res/imagen.jpeg";
 
 export const run = () => {
@@ -30,6 +31,6 @@ export const run = () => {
 	text.appendChild(boldText);
 	document.body.appendChild(text);
 
-	let bottomNavBar = createNavButtons("pageSix.html",next);
+	let bottomNavBar = createNavButtons(prev,next);
 	document.body.appendChild(bottomNavBar);
 };

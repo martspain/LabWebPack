@@ -10,6 +10,76 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./dist/main.bundle.js":
+/*!*****************************!*\
+  !*** ./dist/main.bundle.js ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"14cad6d5cde134d0f79d.js\";\n\n//# sourceURL=webpack://code/./dist/main.bundle.js?");
+
+/***/ }),
+
+/***/ "./dist/pageFive.bundle.js":
+/*!*********************************!*\
+  !*** ./dist/pageFive.bundle.js ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"dd74794353e1e83d208f.js\";\n\n//# sourceURL=webpack://code/./dist/pageFive.bundle.js?");
+
+/***/ }),
+
+/***/ "./dist/pageFour.bundle.js":
+/*!*********************************!*\
+  !*** ./dist/pageFour.bundle.js ***!
+  \*********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"9e765c5ae2fbaaaba39b.js\";\n\n//# sourceURL=webpack://code/./dist/pageFour.bundle.js?");
+
+/***/ }),
+
+/***/ "./dist/pageOne.bundle.js":
+/*!********************************!*\
+  !*** ./dist/pageOne.bundle.js ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"3b58e76a6e55c3bdc8b3.js\";\n\n//# sourceURL=webpack://code/./dist/pageOne.bundle.js?");
+
+/***/ }),
+
+/***/ "./dist/pageSix.bundle.js":
+/*!********************************!*\
+  !*** ./dist/pageSix.bundle.js ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"060c0177652ae7520428.js\";\n\n//# sourceURL=webpack://code/./dist/pageSix.bundle.js?");
+
+/***/ }),
+
+/***/ "./dist/pageThree.bundle.js":
+/*!**********************************!*\
+  !*** ./dist/pageThree.bundle.js ***!
+  \**********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b92a6fc7ce1ff1e65936.js\";\n\n//# sourceURL=webpack://code/./dist/pageThree.bundle.js?");
+
+/***/ }),
+
+/***/ "./dist/pageTwo.bundle.js":
+/*!********************************!*\
+  !*** ./dist/pageTwo.bundle.js ***!
+  \********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"c1a478ac87fd2b6d45d1.js\";\n\n//# sourceURL=webpack://code/./dist/pageTwo.bundle.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/SCSS/style.scss":
 /*!**********************************************************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/SCSS/style.scss ***!
@@ -40,13 +110,83 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
+/***/ "./src/HTML/pageFive.html":
+/*!********************************!*\
+  !*** ./src/HTML/pageFive.html ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! file:///C:/Users/marti/Documents/Martin/Archivos%20Delvallerianos/3er%20Ano/1er%20Semestre/Web/LabWebPack/LabWebPack/code/node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../dist/pageFive.bundle.js */ \"./dist/pageFive.bundle.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!DOCTYPE html>\\r\\n\\r\\n<html lang=\\\"en\\\" xmlns=\\\"http://www.w3.org/1999/xhtml\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"utf-8\\\" />\\r\\n    <title>Pagina 5</title>\\r\\n</head>\\r\\n<body>\\r\\n    <script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\"></script>\\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://code/./src/HTML/pageFive.html?");
+
+/***/ }),
+
+/***/ "./src/HTML/pageFour.html":
+/*!********************************!*\
+  !*** ./src/HTML/pageFour.html ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! file:///C:/Users/marti/Documents/Martin/Archivos%20Delvallerianos/3er%20Ano/1er%20Semestre/Web/LabWebPack/LabWebPack/code/node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../dist/pageFour.bundle.js */ \"./dist/pageFour.bundle.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!DOCTYPE html>\\r\\n\\r\\n<html lang=\\\"en\\\" xmlns=\\\"http://www.w3.org/1999/xhtml\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"utf-8\\\" />\\r\\n    <title>Pagina 4</title>\\r\\n</head>\\r\\n<body>\\r\\n    <script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\"></script>\\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://code/./src/HTML/pageFour.html?");
+
+/***/ }),
+
 /***/ "./src/HTML/pageOne.html":
 /*!*******************************!*\
   !*** ./src/HTML/pageOne.html ***!
   \*******************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n// Module\nvar code = \"export default __webpack_public_path__ + \\\"pageOne.html\\\";\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://code/./src/HTML/pageOne.html?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! file:///C:/Users/marti/Documents/Martin/Archivos%20Delvallerianos/3er%20Ano/1er%20Semestre/Web/LabWebPack/LabWebPack/code/node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../dist/pageOne.bundle.js */ \"./dist/pageOne.bundle.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!DOCTYPE html>\\r\\n\\r\\n<html lang=\\\"en\\\" xmlns=\\\"http://www.w3.org/1999/xhtml\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"utf-8\\\" />\\r\\n    <title>Pagina 1</title>\\r\\n</head>\\r\\n<body>\\r\\n    <script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\"></script>\\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://code/./src/HTML/pageOne.html?");
+
+/***/ }),
+
+/***/ "./src/HTML/pageSix.html":
+/*!*******************************!*\
+  !*** ./src/HTML/pageSix.html ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! file:///C:/Users/marti/Documents/Martin/Archivos%20Delvallerianos/3er%20Ano/1er%20Semestre/Web/LabWebPack/LabWebPack/code/node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../dist/pageSix.bundle.js */ \"./dist/pageSix.bundle.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!DOCTYPE html>\\r\\n\\r\\n<html lang=\\\"en\\\" xmlns=\\\"http://www.w3.org/1999/xhtml\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"utf-8\\\" />\\r\\n    <title>Pagina 6</title>\\r\\n</head>\\r\\n<body>\\r\\n    <script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\"></script>\\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://code/./src/HTML/pageSix.html?");
+
+/***/ }),
+
+/***/ "./src/HTML/pageThree.html":
+/*!*********************************!*\
+  !*** ./src/HTML/pageThree.html ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! file:///C:/Users/marti/Documents/Martin/Archivos%20Delvallerianos/3er%20Ano/1er%20Semestre/Web/LabWebPack/LabWebPack/code/node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../dist/pageThree.bundle.js */ \"./dist/pageThree.bundle.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!DOCTYPE html>\\r\\n\\r\\n<html lang=\\\"en\\\" xmlns=\\\"http://www.w3.org/1999/xhtml\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"utf-8\\\" />\\r\\n    <title>Pagina 3</title>\\r\\n</head>\\r\\n<body>\\r\\n    <script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\"></script>\\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://code/./src/HTML/pageThree.html?");
+
+/***/ }),
+
+/***/ "./src/HTML/pageTwo.html":
+/*!*******************************!*\
+  !*** ./src/HTML/pageTwo.html ***!
+  \*******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! file:///C:/Users/marti/Documents/Martin/Archivos%20Delvallerianos/3er%20Ano/1er%20Semestre/Web/LabWebPack/LabWebPack/code/node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../../dist/pageTwo.bundle.js */ \"./dist/pageTwo.bundle.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!DOCTYPE html>\\r\\n\\r\\n<html lang=\\\"en\\\" xmlns=\\\"http://www.w3.org/1999/xhtml\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"utf-8\\\" />\\r\\n    <title>Pagina Dos</title>\\r\\n</head>\\r\\n<body>\\r\\n    <script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\"></script>\\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://code/./src/HTML/pageTwo.html?");
+
+/***/ }),
+
+/***/ "./src/index.html":
+/*!************************!*\
+  !*** ./src/index.html ***!
+  \************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! file:///C:/Users/marti/Documents/Martin/Archivos%20Delvallerianos/3er%20Ano/1er%20Semestre/Web/LabWebPack/LabWebPack/code/node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0__);\n// Imports\n\nvar ___HTML_LOADER_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ../dist/main.bundle.js */ \"./dist/main.bundle.js\"), __webpack_require__.b);\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = file_C_Users_marti_Documents_Martin_Archivos_20Delvallerianos_3er_20Ano_1er_20Semestre_Web_LabWebPack_LabWebPack_code_node_modules_html_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_0___default()(___HTML_LOADER_IMPORT_0___);\nvar code = \"<!DOCTYPE html>\\r\\n\\r\\n<html lang=\\\"en\\\" xmlns=\\\"http://www.w3.org/1999/xhtml\\\">\\r\\n<head>\\r\\n    <meta charset=\\\"utf-8\\\" />\\r\\n    <title>Historia WebPack</title>\\r\\n</head>\\r\\n<body>\\r\\n    <script src=\\\"\" + ___HTML_LOADER_REPLACEMENT_0___ + \"\\\"></script>\\r\\n</body>\\r\\n</html>\";\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (code);\n\n//# sourceURL=webpack://code/./src/index.html?");
+
+/***/ }),
+
+/***/ "./node_modules/html-loader/dist/runtime/getUrl.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/html-loader/dist/runtime/getUrl.js ***!
+  \*********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // eslint-disable-next-line no-param-reassign\n    options = {};\n  }\n\n  if (!url) {\n    return url;\n  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign\n\n\n  url = String(url.__esModule ? url.default : url);\n\n  if (options.hash) {\n    // eslint-disable-next-line no-param-reassign\n    url += options.hash;\n  }\n\n  if (options.maybeNeedQuotes && /[\\t\\n\\f\\r \"'=<>`]/.test(url)) {\n    return \"\\\"\".concat(url, \"\\\"\");\n  }\n\n  return url;\n};\n\n//# sourceURL=webpack://code/./node_modules/html-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -76,7 +216,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"run\": () => (/* binding */ run)\n/* harmony export */ });\n/* harmony import */ var _JS_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../JS/utils */ \"./src/JS/utils.js\");\n/* harmony import */ var _res_imagen_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../res/imagen.jpeg */ \"./res/imagen.jpeg\");\n/* harmony import */ var _HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../HTML/pageOne.html */ \"./src/HTML/pageOne.html\");\n// Javascript de la p�gina de home\r\n\r\n\r\n\r\n\r\n\r\n\r\n//import img from \"../res/imagen.jpeg\";\r\n\r\nconst run = () => {\r\n\tlet navBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavBar)();\r\n\tdocument.body.appendChild(navBar);\r\n\r\n\tlet title = document.createElement(\"div\");\r\n\ttitle.setAttribute(\"class\",\"title_background\");\r\n\tlet titleText = document.createElement(\"h1\");\r\n\ttitleText.setAttribute(\"class\",\"title\");\r\n\ttitleText.innerHTML = \"Mi aventura al planeta BirigBamba\";\r\n\ttitle.appendChild(titleText);\r\n\tdocument.body.appendChild(title);\r\n\r\n\tlet profilePic = document.createElement(\"img\");\r\n\tprofilePic.setAttribute(\"src\",_res_imagen_jpeg__WEBPACK_IMPORTED_MODULE_1__.default);\r\n\tprofilePic.setAttribute(\"alt\",\"Imagen de Perfil\");\r\n\tdocument.body.appendChild(profilePic);\r\n\r\n\tlet text = document.createElement(\"p\");\r\n\tlet boldText = document.createElement(\"b\");\r\n\tboldText.innerText = \"Todo comenz� en la ma�ana de un martes 13. Era un d�a como cualquier otro. Acababa de despertar, y cuando me di cuenta mi reloj marcaba las 9 A.M. Esto significa que iba tarde para mi clase de Sistemas y Tecnolog�as Web. Me alist� en menos de 5 minutos, y al salir de casa, el perro de mis vecinos, Manchas, se encontraba rompiendo la bolsa de basura frente a mi puerta. Al darme cuenta de esto lo intent� capturar, pero Manchas r�pidamente me esquiv�, dispers� la basura por toda la entrada y seguidament� se infiltr� a mi casa.\";\r\n\ttext.appendChild(boldText);\r\n\tdocument.body.appendChild(text);\r\n\r\n\tlet bottomNavBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavButtons)(\"pageSix.html\",_HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_2__.default);\r\n\tdocument.body.appendChild(bottomNavBar);\r\n};\r\n\n\n//# sourceURL=webpack://code/./src/JS/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"run\": () => (/* binding */ run)\n/* harmony export */ });\n/* harmony import */ var _JS_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../JS/utils */ \"./src/JS/utils.js\");\n/* harmony import */ var _res_imagen_jpeg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../res/imagen.jpeg */ \"./res/imagen.jpeg\");\n/* harmony import */ var _HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../HTML/pageOne.html */ \"./src/HTML/pageOne.html\");\n/* harmony import */ var _HTML_pageSix_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../HTML/pageSix.html */ \"./src/HTML/pageSix.html\");\n// Javascript de la p�gina de home\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n//import img from \"../res/imagen.jpeg\";\r\n\r\nconst run = () => {\r\n\tlet navBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavBar)();\r\n\tdocument.body.appendChild(navBar);\r\n\r\n\tlet title = document.createElement(\"div\");\r\n\ttitle.setAttribute(\"class\",\"title_background\");\r\n\tlet titleText = document.createElement(\"h1\");\r\n\ttitleText.setAttribute(\"class\",\"title\");\r\n\ttitleText.innerHTML = \"Mi aventura al planeta BirigBamba\";\r\n\ttitle.appendChild(titleText);\r\n\tdocument.body.appendChild(title);\r\n\r\n\tlet profilePic = document.createElement(\"img\");\r\n\tprofilePic.setAttribute(\"src\",_res_imagen_jpeg__WEBPACK_IMPORTED_MODULE_1__.default);\r\n\tprofilePic.setAttribute(\"alt\",\"Imagen de Perfil\");\r\n\tdocument.body.appendChild(profilePic);\r\n\r\n\tlet text = document.createElement(\"p\");\r\n\tlet boldText = document.createElement(\"b\");\r\n\tboldText.innerText = \"Todo comenz� en la ma�ana de un martes 13. Era un d�a como cualquier otro. Acababa de despertar, y cuando me di cuenta mi reloj marcaba las 9 A.M. Esto significa que iba tarde para mi clase de Sistemas y Tecnolog�as Web. Me alist� en menos de 5 minutos, y al salir de casa, el perro de mis vecinos, Manchas, se encontraba rompiendo la bolsa de basura frente a mi puerta. Al darme cuenta de esto lo intent� capturar, pero Manchas r�pidamente me esquiv�, dispers� la basura por toda la entrada y seguidament� se infiltr� a mi casa.\";\r\n\ttext.appendChild(boldText);\r\n\tdocument.body.appendChild(text);\r\n\r\n\tlet bottomNavBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavButtons)(_HTML_pageSix_html__WEBPACK_IMPORTED_MODULE_3__.default,_HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_2__.default);\r\n\tdocument.body.appendChild(bottomNavBar);\r\n};\r\n\n\n//# sourceURL=webpack://code/./src/JS/home.js?");
 
 /***/ }),
 
@@ -86,7 +226,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createNavBar\": () => (/* binding */ createNavBar),\n/* harmony export */   \"createNavElement\": () => (/* binding */ createNavElement),\n/* harmony export */   \"createNavButtons\": () => (/* binding */ createNavButtons)\n/* harmony export */ });\n/* harmony import */ var _src_HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../src/HTML/pageOne.html */ \"./src/HTML/pageOne.html\");\n// Utilities\r\n\r\n\r\n\r\nfunction createNavBar(){\r\n\tlet navBar = document.createElement(\"ul\");\r\n\tnavBar.setAttribute(\"class\",\"navbar\");\r\n\r\n\tlet navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\r\n\tnavBar.appendChild(navElementHome);\r\n\r\n\tlet navElementOne = createNavElement(_src_HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_0__.default, \"1. Manchas\");\r\n\tnavBar.appendChild(navElementOne);\r\n\t\r\n\tlet navElementTwo = createNavElement(\"pageTwo.html\", \"2. Elevador\");\r\n\tnavBar.appendChild(navElementTwo);\r\n\r\n\tlet navElementThree = createNavElement(\"pageThree.html\", \"3. Zombies\");\r\n\tnavBar.appendChild(navElementThree);\r\n\r\n\tlet navElementFour = createNavElement(\"pageFour.html\", \"4. Aliens\");\r\n\tnavBar.appendChild(navElementFour);\r\n\r\n\tlet navElementFive = createNavElement(\"pageFive.html\", \"5. Tiempo\");\r\n\tnavBar.appendChild(navElementFive);\r\n\r\n\tlet navElementSix = createNavElement(\"pageSix.html\", \"6. Fin\");\r\n\tnavBar.appendChild(navElementSix);\r\n\r\n\r\n\treturn navBar;\r\n}\r\n\r\nfunction createNavElement(path, name){\r\n\tlet navElement = document.createElement(\"li\");\r\n\tlet link = document.createElement(\"a\");\r\n\tlink.setAttribute(\"href\", path);\r\n\tlink.innerHTML = name;\r\n\tnavElement.appendChild(link);\r\n\t\r\n\treturn navElement;\r\n}\r\n\r\nfunction createNavButtons(prevPath, nextPath){\r\n\tlet navBar = document.createElement(\"ul\");\r\n\tnavBar.setAttribute(\"class\", \"navbar\");\r\n\r\n\tlet navElementOne = createNavElement(prevPath, \"Anterior\");\r\n\tnavBar.appendChild(navElementOne);\r\n\r\n\tlet navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\r\n\tnavBar.appendChild(navElementHome);\r\n\t\r\n\tlet navElementTwo = createNavElement(nextPath, \"Siguiente\");\r\n\tnavBar.appendChild(navElementTwo);\r\n\r\n\treturn navBar;\r\n}\r\n\r\n\n\n//# sourceURL=webpack://code/./src/JS/utils.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createNavBar\": () => (/* binding */ createNavBar),\n/* harmony export */   \"createNavElement\": () => (/* binding */ createNavElement),\n/* harmony export */   \"createNavButtons\": () => (/* binding */ createNavButtons)\n/* harmony export */ });\n/* harmony import */ var _src_index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../src/index.html */ \"./src/index.html\");\n/* harmony import */ var _src_HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../src/HTML/pageOne.html */ \"./src/HTML/pageOne.html\");\n/* harmony import */ var _src_HTML_pageTwo_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/HTML/pageTwo.html */ \"./src/HTML/pageTwo.html\");\n/* harmony import */ var _src_HTML_pageThree_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../src/HTML/pageThree.html */ \"./src/HTML/pageThree.html\");\n/* harmony import */ var _src_HTML_pageFour_html__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../src/HTML/pageFour.html */ \"./src/HTML/pageFour.html\");\n/* harmony import */ var _src_HTML_pageFive_html__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../src/HTML/pageFive.html */ \"./src/HTML/pageFive.html\");\n/* harmony import */ var _src_HTML_pageSix_html__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../src/HTML/pageSix.html */ \"./src/HTML/pageSix.html\");\n// Utilities\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction createNavBar(){\r\n\tlet navBar = document.createElement(\"ul\");\r\n\tnavBar.setAttribute(\"class\",\"navbar\");\r\n\r\n\tlet navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\r\n\tnavBar.appendChild(navElementHome);\r\n\r\n\tlet navElementOne = createNavElement(\"./pageOne.html\", \"1. Manchas\");\r\n\tnavBar.appendChild(navElementOne);\r\n\t\r\n\tlet navElementTwo = createNavElement(\"./pageTwo.html\", \"2. Elevador\");\r\n\tnavBar.appendChild(navElementTwo);\r\n\r\n\tlet navElementThree = createNavElement(\"./pageThree.html\", \"3. Zombies\");\r\n\tnavBar.appendChild(navElementThree);\r\n\r\n\tlet navElementFour = createNavElement(\"./pageFour.html\", \"4. Aliens\");\r\n\tnavBar.appendChild(navElementFour);\r\n\r\n\tlet navElementFive = createNavElement(\"./pageFive.html\", \"5. Tiempo\");\r\n\tnavBar.appendChild(navElementFive);\r\n\r\n\tlet navElementSix = createNavElement(\"./pageSix.html\", \"6. Fin\");\r\n\tnavBar.appendChild(navElementSix);\r\n\r\n\r\n\treturn navBar;\r\n}\r\n\r\nfunction createNavElement(path, name){\r\n\tlet navElement = document.createElement(\"li\");\r\n\tlet link = document.createElement(\"a\");\r\n\tlink.setAttribute(\"href\", path);\r\n\tlink.innerHTML = name;\r\n\tnavElement.appendChild(link);\r\n\t\r\n\treturn navElement;\r\n}\r\n\r\nfunction createNavButtons(prevPath, nextPath){\r\n\tlet navBar = document.createElement(\"ul\");\r\n\tnavBar.setAttribute(\"class\", \"navbar\");\r\n\r\n\tlet navElementOne = createNavElement(prevPath, \"Anterior\");\r\n\tnavBar.appendChild(navElementOne);\r\n\r\n\tlet navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\r\n\tnavBar.appendChild(navElementHome);\r\n\t\r\n\tlet navElementTwo = createNavElement(nextPath, \"Siguiente\");\r\n\tnavBar.appendChild(navElementTwo);\r\n\r\n\treturn navBar;\r\n}\r\n\r\n\n\n//# sourceURL=webpack://code/./src/JS/utils.js?");
 
 /***/ }),
 
@@ -124,6 +264,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src
 /******/ 		// Return the exports of the module
 /******/ 		return module.exports;
 /******/ 	}
+/******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
 /******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
@@ -196,6 +339,35 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src
 /******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
 /******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
 /******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// Promise = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no deferred startup
+/******/ 		
+/******/ 		// no jsonp function
+/******/ 		
+/******/ 		// no deferred startup
 /******/ 	})();
 /******/ 	
 /************************************************************************/

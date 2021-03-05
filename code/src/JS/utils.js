@@ -1,6 +1,12 @@
 // Utilities
 
+import indax from "../../src/index.html";
 import pagOne from "../../src/HTML/pageOne.html";
+import pagTwo from "../../src/HTML/pageTwo.html";
+import pagThree from "../../src/HTML/pageThree.html";
+import pagFour from "../../src/HTML/pageFour.html";
+import pagFive from "../../src/HTML/pageFive.html";
+import pagSix from "../../src/HTML/pageSix.html";
 
 export function createNavBar(){
 	let navBar = document.createElement("ul");
@@ -9,22 +15,22 @@ export function createNavBar(){
 	let navElementHome = createNavElement("./index.html", "Pagina Principal");
 	navBar.appendChild(navElementHome);
 
-	let navElementOne = createNavElement(pagOne, "1. Manchas");
+	let navElementOne = createNavElement("./pageOne.html", "1. Manchas");
 	navBar.appendChild(navElementOne);
 	
-	let navElementTwo = createNavElement("pageTwo.html", "2. Elevador");
+	let navElementTwo = createNavElement("./pageTwo.html", "2. Elevador");
 	navBar.appendChild(navElementTwo);
 
-	let navElementThree = createNavElement("pageThree.html", "3. Zombies");
+	let navElementThree = createNavElement("./pageThree.html", "3. Zombies");
 	navBar.appendChild(navElementThree);
 
-	let navElementFour = createNavElement("pageFour.html", "4. Aliens");
+	let navElementFour = createNavElement("./pageFour.html", "4. Aliens");
 	navBar.appendChild(navElementFour);
 
-	let navElementFive = createNavElement("pageFive.html", "5. Tiempo");
+	let navElementFive = createNavElement("./pageFive.html", "5. Tiempo");
 	navBar.appendChild(navElementFive);
 
-	let navElementSix = createNavElement("pageSix.html", "6. Fin");
+	let navElementSix = createNavElement("./pageSix.html", "6. Fin");
 	navBar.appendChild(navElementSix);
 
 
