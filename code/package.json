@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "webpack --config webpack.config.js",
-    "babel-run": "babel -out--dir babel_dist"
+    "babel-run": "babel src -d babel_dist"
   },
   "keywords": [],
   "author": "",
