@@ -19,9 +19,13 @@
     "webpack-cli": "^4.5.0"
   },
   "scripts": {
-    "start": "webpack --config webpack.config.js"
+    "start": "webpack --config webpack.config.js",
+    "babel-run": "babel -out--dir babel_dist"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.9.1"
+  }
 }
