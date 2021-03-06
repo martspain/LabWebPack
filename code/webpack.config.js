@@ -88,6 +88,11 @@ module.exports = {
 				test: /\.mp4$/,
 				use: "file-loader?name=videos/[name].[ext]",
 			},
+			{
+				test: /\.js$/,
+				loader: "babel-loader",
+				exclude: /(node-modules)/,
+			}
 		]
 	}
 };

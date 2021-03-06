@@ -7,6 +7,9 @@ const presets = [
 		}
 	]
 ];
-const plugins = [];
+const plugins = [
+	"@babel/plugin-transform-arrow-functions",
+	"@babel/plugin-transform-function-name",	
+];
 
 module.exports = {presets,plugins};
