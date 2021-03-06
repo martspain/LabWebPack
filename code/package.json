@@ -20,12 +20,13 @@
   },
   "scripts": {
     "start": "webpack --config webpack.config.js",
-    "babel-run": "babel src -d babel_dist"
+    "babel-run": "babel src/JS -d babel_dist"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "core-js": "^3.9.1"
   }
 }
