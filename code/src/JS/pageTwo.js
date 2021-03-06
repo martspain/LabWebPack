@@ -28,6 +28,6 @@ export const runTwo = () => {
 	text.appendChild(boldText);
 	document.body.appendChild(text);
 
-	let bottomNavBar = createNavButtons("pageOne.html","pageThree.html");
+	let bottomNavBar = createNavButtons("./pageOne.html","./pageThree.html");
 	document.body.appendChild(bottomNavBar);
 }

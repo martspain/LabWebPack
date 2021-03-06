@@ -4,8 +4,8 @@ import {createNavBar} from "../JS/utils";
 import {createNavElement} from "../JS/utils";
 import {createNavButtons} from "../JS/utils";
 import pic from "../../res/imagen.jpeg";
-import next from "../HTML/pageOne.html";
-import prev from "../HTML/pageSix.html";
+//import next from "../../dist/pageOne.html";
+//import prev from "../../dist/pageSix.html";
 //import img from "../res/imagen.jpeg";
 
 export const run = () => {
@@ -31,6 +31,6 @@ export const run = () => {
 	text.appendChild(boldText);
 	document.body.appendChild(text);
 
-	let bottomNavBar = createNavButtons(prev,next);
+	let bottomNavBar = createNavButtons("./pageSix.html","./pageOne.html");
 	document.body.appendChild(bottomNavBar);
 };

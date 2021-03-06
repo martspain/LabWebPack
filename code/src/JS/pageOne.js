@@ -3,7 +3,7 @@
 import {createNavBar} from "../JS/utils";
 import {createNavElement} from "../JS/utils";
 import {createNavButtons} from "../JS/utils";
-import next from "../HTML/pageTwo.html"
+//import next from "../HTML/pageTwo.html"
 import pic from "../../res/manchas.jpg";
 
 export const runOne = () => {
@@ -30,7 +30,7 @@ export const runOne = () => {
 	text.appendChild(boldText);
 	document.body.appendChild(text);
 
-	let bottomNavBar = createNavButtons("./index.html",next);
+	let bottomNavBar = createNavButtons("./index.html","./pageTwo.html");
 	document.body.appendChild(bottomNavBar);
 
 };

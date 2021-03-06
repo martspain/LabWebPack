@@ -33,7 +33,7 @@ export const runThree = () => {
 	text.appendChild(boldText);
 	document.body.appendChild(text);
 
-	let bottomNavBar = createNavButtons("pageTwo.html","pageFour.html");
+	let bottomNavBar = createNavButtons("./pageTwo.html","./pageFour.html");
 	document.body.appendChild(bottomNavBar);
 }
 

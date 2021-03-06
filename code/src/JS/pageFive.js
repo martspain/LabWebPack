@@ -29,7 +29,7 @@ export const runFive = () => {
 	text.appendChild(boldText);
 	document.body.appendChild(text);
 
-	let bottomNavBar = createNavButtons("pageFour.html","pageSix.html");
+	let bottomNavBar = createNavButtons("./pageFour.html","./pageSix.html");
 	document.body.appendChild(bottomNavBar);
 
 }

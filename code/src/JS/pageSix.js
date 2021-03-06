@@ -37,6 +37,6 @@ export const runSix = () => {
 	titleTwo.appendChild(titleTextTwo);
 	document.body.appendChild(titleTwo);
 
-	let bottomNavBar = createNavButtons("pageFive.html","./index.html");
+	let bottomNavBar = createNavButtons("./pageFive.html","./index.html");
 	document.body.appendChild(bottomNavBar);
 }

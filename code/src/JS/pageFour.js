@@ -39,7 +39,7 @@ export const runFour = () => {
 	textTwo.appendChild(boldTextTwo);
 	document.body.appendChild(textTwo);
 
-	let bottomNavBar = createNavButtons("pageThree.html","pageFive.html");
+	let bottomNavBar = createNavButtons("./pageThree.html","./pageFive.html");
 	document.body.appendChild(bottomNavBar);
 
 }

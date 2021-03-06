@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+//const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require("path");
 
 module.exports = {
@@ -56,14 +57,17 @@ module.exports = {
 			filename: "pageSix.html",
 			template: "./src/HTML/pageSix.html",
 			chunks: ["pageSix"]
-		}),	
+		}),
+		//new MiniCssExtractPlugin(),
 	],
 	module: {
 		rules:[
+			
 			{
 				test: /\.scss$/i,
 				use: ['style-loader', 'css-loader', 'sass-loader']
 			},
+			
 			{
 				test: /\.html$/i,
 				use: ["html-loader"],
@@ -87,12 +91,16 @@ module.exports = {
 			{
 				test: /\.mp4$/,
 				use: "file-loader?name=videos/[name].[ext]",
-			},
+			},/*
 			{
 				test: /\.js$/,
 				loader: "babel-loader",
 				exclude: /(node-modules)/,
-			}
+			},*//*
+			{
+				test: /\.css$/i,
+				use: [MiniCssExtractPlugin.loader, 'css-loader'],
+			},*/
 		]
 	}
 };
