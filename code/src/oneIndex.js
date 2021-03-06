@@ -1,4 +1,4 @@
 import {runOne} from "../src/JS/pageOne";
-import "./SCSS/style.scss";
+import "./CSS/style.css";
 
 runOne();

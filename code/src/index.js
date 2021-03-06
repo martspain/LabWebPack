@@ -1,4 +1,4 @@
 import {run} from "../src/JS/home";
-import "./SCSS/style.scss";
+import "./CSS/style.css";
 
 run();

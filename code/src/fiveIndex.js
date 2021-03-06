@@ -1,4 +1,4 @@
 import {runFive} from "../src/JS/pageFive.js";
-import "./SCSS/style.scss";
+import "./CSS/style.css";
 
 runFive();

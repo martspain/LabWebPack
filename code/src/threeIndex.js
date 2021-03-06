@@ -1,4 +1,4 @@
 import {runThree} from "../src/JS/pageThree.js";
-import "./SCSS/style.scss";
+import "./CSS/style.css";
 
 runThree();

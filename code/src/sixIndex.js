@@ -1,4 +1,4 @@
 import {runSix} from "../src/JS/pageSix.js";
-import "./SCSS/style.scss";
+import "./CSS/style.css";
 
 runSix();

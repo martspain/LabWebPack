@@ -1,4 +1,4 @@
 import {runTwo} from "../src/JS/pageTwo";
-import "./SCSS/style.scss";
+import "./CSS/style.css";
 
 runTwo();
