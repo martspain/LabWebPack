@@ -10,6 +10,36 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/JS/pageFive.js":
+/*!****************************!*\
+  !*** ./src/JS/pageFive.js ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"runFive\": () => (/* binding */ runFive)\n/* harmony export */ });\n/* harmony import */ var _JS_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../JS/utils */ \"./src/JS/utils.js\");\n/* harmony import */ var _res_delorean_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../res/delorean.jpg */ \"./res/delorean.jpg\");\n// JavaScript pagina 5\n\n\n\n\nvar runFive = function runFive() {\n  var navBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavBar)();\n  document.body.appendChild(navBar);\n  var title = document.createElement(\"div\");\n  title.setAttribute(\"class\", \"title_background\");\n  var titleText = document.createElement(\"h1\");\n  titleText.setAttribute(\"class\", \"title\");\n  titleText.innerHTML = \"Viaje en el Tiempo\";\n  title.appendChild(titleText);\n  document.body.appendChild(title);\n  var profilePic = document.createElement(\"img\");\n  profilePic.setAttribute(\"src\", _res_delorean_jpg__WEBPACK_IMPORTED_MODULE_1__.default);\n  profilePic.setAttribute(\"alt\", \"Imagen de Delorean\");\n  profilePic.setAttribute(\"class\", \"delorean\");\n  document.body.appendChild(profilePic);\n  var text = document.createElement(\"p\");\n  var boldText = document.createElement(\"b\");\n  boldText.innerText = \"Entonces, volv� al Planeta Birig Bamba muy enojado. Pero pens� en una soluci�n: le ped� a los cient�ficos m�s listos que dise�aran una m�quina del tiempo y un ant�doto para evitar que los zombies destruyeran todo. Hicieron todo lo que les ped�, as� que luego de agradecerles me march� y volv� al d�a en que empez� todo.\";\n  text.appendChild(boldText);\n  document.body.appendChild(text);\n  var bottomNavBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavButtons)(\"./pageFour.html\", \"./pageSix.html\");\n  document.body.appendChild(bottomNavBar);\n};\n\n//# sourceURL=webpack://code/./src/JS/pageFive.js?");
+
+/***/ }),
+
+/***/ "./src/JS/utils.js":
+/*!*************************!*\
+  !*** ./src/JS/utils.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createNavBar\": () => (/* binding */ createNavBar),\n/* harmony export */   \"createNavElement\": () => (/* binding */ createNavElement),\n/* harmony export */   \"createNavButtons\": () => (/* binding */ createNavButtons)\n/* harmony export */ });\n/* harmony import */ var _src_index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../src/index.html */ \"./src/index.html\");\n/* harmony import */ var _src_HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../src/HTML/pageOne.html */ \"./src/HTML/pageOne.html\");\n/* harmony import */ var _src_HTML_pageTwo_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/HTML/pageTwo.html */ \"./src/HTML/pageTwo.html\");\n/* harmony import */ var _src_HTML_pageThree_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../src/HTML/pageThree.html */ \"./src/HTML/pageThree.html\");\n/* harmony import */ var _src_HTML_pageFour_html__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../src/HTML/pageFour.html */ \"./src/HTML/pageFour.html\");\n/* harmony import */ var _src_HTML_pageFive_html__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../src/HTML/pageFive.html */ \"./src/HTML/pageFive.html\");\n/* harmony import */ var _src_HTML_pageSix_html__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../src/HTML/pageSix.html */ \"./src/HTML/pageSix.html\");\n// Utilities\n\n\n\n\n\n\n\nfunction createNavBar() {\n  var navBar = document.createElement(\"ul\");\n  navBar.setAttribute(\"class\", \"navbar\");\n  var navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\n  navBar.appendChild(navElementHome);\n  var navElementOne = createNavElement(\"./pageOne.html\", \"1. Manchas\");\n  navBar.appendChild(navElementOne);\n  var navElementTwo = createNavElement(\"./pageTwo.html\", \"2. Elevador\");\n  navBar.appendChild(navElementTwo);\n  var navElementThree = createNavElement(\"./pageThree.html\", \"3. Zombies\");\n  navBar.appendChild(navElementThree);\n  var navElementFour = createNavElement(\"./pageFour.html\", \"4. Aliens\");\n  navBar.appendChild(navElementFour);\n  var navElementFive = createNavElement(\"./pageFive.html\", \"5. Tiempo\");\n  navBar.appendChild(navElementFive);\n  var navElementSix = createNavElement(\"./pageSix.html\", \"6. Fin\");\n  navBar.appendChild(navElementSix);\n  return navBar;\n}\nfunction createNavElement(path, name) {\n  var navElement = document.createElement(\"li\");\n  var link = document.createElement(\"a\");\n  link.setAttribute(\"href\", path);\n  link.innerHTML = name;\n  navElement.appendChild(link);\n  return navElement;\n}\nfunction createNavButtons(prevPath, nextPath) {\n  var navBar = document.createElement(\"ul\");\n  navBar.setAttribute(\"class\", \"navbar\");\n  var navElementOne = createNavElement(prevPath, \"Anterior\");\n  navBar.appendChild(navElementOne);\n  var navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\n  navBar.appendChild(navElementHome);\n  var navElementTwo = createNavElement(nextPath, \"Siguiente\");\n  navBar.appendChild(navElementTwo);\n  return navBar;\n}\n\n//# sourceURL=webpack://code/./src/JS/utils.js?");
+
+/***/ }),
+
+/***/ "./src/fiveIndex.js":
+/*!**************************!*\
+  !*** ./src/fiveIndex.js ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_JS_pageFive_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/JS/pageFive.js */ \"./src/JS/pageFive.js\");\n/* harmony import */ var _CSS_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CSS/style.css */ \"./src/CSS/style.css\");\n\n\n(0,_src_JS_pageFive_js__WEBPACK_IMPORTED_MODULE_0__.runFive)();\n\n//# sourceURL=webpack://code/./src/fiveIndex.js?");
+
+/***/ }),
+
 /***/ "./res/delorean.jpg":
 /*!**************************!*\
   !*** ./res/delorean.jpg ***!
@@ -97,36 +127,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://code/./src/CSS/style.css?");
-
-/***/ }),
-
-/***/ "./src/JS/pageFive.js":
-/*!****************************!*\
-  !*** ./src/JS/pageFive.js ***!
-  \****************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"runFive\": () => (/* binding */ runFive)\n/* harmony export */ });\n/* harmony import */ var _JS_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../JS/utils */ \"./src/JS/utils.js\");\n/* harmony import */ var _res_delorean_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../res/delorean.jpg */ \"./res/delorean.jpg\");\n// JavaScript pagina 5\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst runFive = () => {\r\n\tlet navBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavBar)();\r\n\tdocument.body.appendChild(navBar);\r\n\r\n\tlet title = document.createElement(\"div\");\r\n\ttitle.setAttribute(\"class\",\"title_background\");\r\n\tlet titleText = document.createElement(\"h1\");\r\n\ttitleText.setAttribute(\"class\",\"title\");\r\n\ttitleText.innerHTML = \"Viaje en el Tiempo\";\r\n\ttitle.appendChild(titleText);\r\n\tdocument.body.appendChild(title);\r\n\r\n\tlet profilePic = document.createElement(\"img\");\r\n\tprofilePic.setAttribute(\"src\",_res_delorean_jpg__WEBPACK_IMPORTED_MODULE_1__.default);\r\n\tprofilePic.setAttribute(\"alt\",\"Imagen de Delorean\");\r\n\tprofilePic.setAttribute(\"class\",\"delorean\");\r\n\tdocument.body.appendChild(profilePic);\r\n\r\n\tlet text = document.createElement(\"p\");\r\n\tlet boldText = document.createElement(\"b\");\r\n\tboldText.innerText = \"Entonces, volv� al Planeta Birig Bamba muy enojado. Pero pens� en una soluci�n: le ped� a los cient�ficos m�s listos que dise�aran una m�quina del tiempo y un ant�doto para evitar que los zombies destruyeran todo. Hicieron todo lo que les ped�, as� que luego de agradecerles me march� y volv� al d�a en que empez� todo.\";\r\n\ttext.appendChild(boldText);\r\n\tdocument.body.appendChild(text);\r\n\r\n\tlet bottomNavBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavButtons)(\"./pageFour.html\",\"./pageSix.html\");\r\n\tdocument.body.appendChild(bottomNavBar);\r\n\r\n}\n\n//# sourceURL=webpack://code/./src/JS/pageFive.js?");
-
-/***/ }),
-
-/***/ "./src/JS/utils.js":
-/*!*************************!*\
-  !*** ./src/JS/utils.js ***!
-  \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createNavBar\": () => (/* binding */ createNavBar),\n/* harmony export */   \"createNavElement\": () => (/* binding */ createNavElement),\n/* harmony export */   \"createNavButtons\": () => (/* binding */ createNavButtons)\n/* harmony export */ });\n/* harmony import */ var _src_index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../src/index.html */ \"./src/index.html\");\n/* harmony import */ var _src_HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../src/HTML/pageOne.html */ \"./src/HTML/pageOne.html\");\n/* harmony import */ var _src_HTML_pageTwo_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/HTML/pageTwo.html */ \"./src/HTML/pageTwo.html\");\n/* harmony import */ var _src_HTML_pageThree_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../src/HTML/pageThree.html */ \"./src/HTML/pageThree.html\");\n/* harmony import */ var _src_HTML_pageFour_html__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../src/HTML/pageFour.html */ \"./src/HTML/pageFour.html\");\n/* harmony import */ var _src_HTML_pageFive_html__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../src/HTML/pageFive.html */ \"./src/HTML/pageFive.html\");\n/* harmony import */ var _src_HTML_pageSix_html__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../src/HTML/pageSix.html */ \"./src/HTML/pageSix.html\");\n// Utilities\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction createNavBar(){\r\n\tlet navBar = document.createElement(\"ul\");\r\n\tnavBar.setAttribute(\"class\",\"navbar\");\r\n\r\n\tlet navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\r\n\tnavBar.appendChild(navElementHome);\r\n\r\n\tlet navElementOne = createNavElement(\"./pageOne.html\", \"1. Manchas\");\r\n\tnavBar.appendChild(navElementOne);\r\n\t\r\n\tlet navElementTwo = createNavElement(\"./pageTwo.html\", \"2. Elevador\");\r\n\tnavBar.appendChild(navElementTwo);\r\n\r\n\tlet navElementThree = createNavElement(\"./pageThree.html\", \"3. Zombies\");\r\n\tnavBar.appendChild(navElementThree);\r\n\r\n\tlet navElementFour = createNavElement(\"./pageFour.html\", \"4. Aliens\");\r\n\tnavBar.appendChild(navElementFour);\r\n\r\n\tlet navElementFive = createNavElement(\"./pageFive.html\", \"5. Tiempo\");\r\n\tnavBar.appendChild(navElementFive);\r\n\r\n\tlet navElementSix = createNavElement(\"./pageSix.html\", \"6. Fin\");\r\n\tnavBar.appendChild(navElementSix);\r\n\r\n\r\n\treturn navBar;\r\n}\r\n\r\nfunction createNavElement(path, name){\r\n\tlet navElement = document.createElement(\"li\");\r\n\tlet link = document.createElement(\"a\");\r\n\tlink.setAttribute(\"href\", path);\r\n\tlink.innerHTML = name;\r\n\tnavElement.appendChild(link);\r\n\t\r\n\treturn navElement;\r\n}\r\n\r\nfunction createNavButtons(prevPath, nextPath){\r\n\tlet navBar = document.createElement(\"ul\");\r\n\tnavBar.setAttribute(\"class\", \"navbar\");\r\n\r\n\tlet navElementOne = createNavElement(prevPath, \"Anterior\");\r\n\tnavBar.appendChild(navElementOne);\r\n\r\n\tlet navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\r\n\tnavBar.appendChild(navElementHome);\r\n\t\r\n\tlet navElementTwo = createNavElement(nextPath, \"Siguiente\");\r\n\tnavBar.appendChild(navElementTwo);\r\n\r\n\treturn navBar;\r\n}\r\n\r\n\n\n//# sourceURL=webpack://code/./src/JS/utils.js?");
-
-/***/ }),
-
-/***/ "./src/fiveIndex.js":
-/*!**************************!*\
-  !*** ./src/fiveIndex.js ***!
-  \**************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_JS_pageFive_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/JS/pageFive.js */ \"./src/JS/pageFive.js\");\n/* harmony import */ var _CSS_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CSS/style.css */ \"./src/CSS/style.css\");\n\r\n\r\n\r\n(0,_src_JS_pageFive_js__WEBPACK_IMPORTED_MODULE_0__.runFive)();\n\n//# sourceURL=webpack://code/./src/fiveIndex.js?");
 
 /***/ })
 

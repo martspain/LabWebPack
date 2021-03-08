@@ -91,15 +91,17 @@ module.exports = {
 			{
 				test: /\.mp4$/,
 				use: "file-loader?name=videos/[name].[ext]",
-			},/*
+			},
 			{
 				test: /\.js$/,
 				loader: "babel-loader",
-				exclude: /(node-modules)/,
-			},*/
+				exclude: /node_modules/,
+			},
 			{
 				test: /\.css$/i,
 				use: [MiniCssExtractPlugin.loader, 'css-loader'],
+				//exclude: path.resolve(__dirname, "./style.css.map"),
+				exclude: /node_modules/,
 			},
 		]
 	}

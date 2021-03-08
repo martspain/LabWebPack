@@ -10,6 +10,36 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/JS/pageSix.js":
+/*!***************************!*\
+  !*** ./src/JS/pageSix.js ***!
+  \***************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"runSix\": () => (/* binding */ runSix)\n/* harmony export */ });\n/* harmony import */ var _JS_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../JS/utils */ \"./src/JS/utils.js\");\n/* harmony import */ var _res_rocket_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../res/rocket.png */ \"./res/rocket.png\");\n// JavaScript pagina 6\n\n\n\n\nvar runSix = function runSix() {\n  var navBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavBar)();\n  document.body.appendChild(navBar);\n  var title = document.createElement(\"div\");\n  title.setAttribute(\"class\", \"title_background\");\n  var titleText = document.createElement(\"h1\");\n  titleText.setAttribute(\"class\", \"title\");\n  titleText.innerHTML = \"Desenlace\";\n  title.appendChild(titleText);\n  document.body.appendChild(title);\n  var text = document.createElement(\"p\");\n  var boldText = document.createElement(\"b\");\n  boldText.innerText = \"Al volver pude verme a m� mismo salir de mi casa por primera vez (cuando me encontr� a Manchas). As� que sin meditarlo fui al lado m�o y me dispar� en la cabeza, ya que no pueden haber dos versiones de m� al mismo tiempo. Luego tom� un lanzacohetes y con �l destru� la nave espacial cuando vino. Finalmente, volv� a mi casa, recog� la basura, enterr� mi cuerpo y me acost� tranquilamente luego de un d�a tan agitado.\";\n  text.appendChild(boldText);\n  document.body.appendChild(text);\n  var profilePic = document.createElement(\"img\");\n  profilePic.setAttribute(\"src\", _res_rocket_png__WEBPACK_IMPORTED_MODULE_1__.default);\n  profilePic.setAttribute(\"alt\", \"Imagen de Perfil\");\n  profilePic.setAttribute(\"class\", \"rocket\");\n  document.body.appendChild(profilePic);\n  var titleTwo = document.createElement(\"div\");\n  titleTwo.setAttribute(\"class\", \"title_background\");\n  var titleTextTwo = document.createElement(\"h1\");\n  titleTextTwo.setAttribute(\"class\", \"title\");\n  titleTextTwo.innerHTML = \"Fin?\";\n  titleTwo.appendChild(titleTextTwo);\n  document.body.appendChild(titleTwo);\n  var bottomNavBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavButtons)(\"./pageFive.html\", \"./index.html\");\n  document.body.appendChild(bottomNavBar);\n};\n\n//# sourceURL=webpack://code/./src/JS/pageSix.js?");
+
+/***/ }),
+
+/***/ "./src/JS/utils.js":
+/*!*************************!*\
+  !*** ./src/JS/utils.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createNavBar\": () => (/* binding */ createNavBar),\n/* harmony export */   \"createNavElement\": () => (/* binding */ createNavElement),\n/* harmony export */   \"createNavButtons\": () => (/* binding */ createNavButtons)\n/* harmony export */ });\n/* harmony import */ var _src_index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../src/index.html */ \"./src/index.html\");\n/* harmony import */ var _src_HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../src/HTML/pageOne.html */ \"./src/HTML/pageOne.html\");\n/* harmony import */ var _src_HTML_pageTwo_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/HTML/pageTwo.html */ \"./src/HTML/pageTwo.html\");\n/* harmony import */ var _src_HTML_pageThree_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../src/HTML/pageThree.html */ \"./src/HTML/pageThree.html\");\n/* harmony import */ var _src_HTML_pageFour_html__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../src/HTML/pageFour.html */ \"./src/HTML/pageFour.html\");\n/* harmony import */ var _src_HTML_pageFive_html__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../src/HTML/pageFive.html */ \"./src/HTML/pageFive.html\");\n/* harmony import */ var _src_HTML_pageSix_html__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../src/HTML/pageSix.html */ \"./src/HTML/pageSix.html\");\n// Utilities\n\n\n\n\n\n\n\nfunction createNavBar() {\n  var navBar = document.createElement(\"ul\");\n  navBar.setAttribute(\"class\", \"navbar\");\n  var navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\n  navBar.appendChild(navElementHome);\n  var navElementOne = createNavElement(\"./pageOne.html\", \"1. Manchas\");\n  navBar.appendChild(navElementOne);\n  var navElementTwo = createNavElement(\"./pageTwo.html\", \"2. Elevador\");\n  navBar.appendChild(navElementTwo);\n  var navElementThree = createNavElement(\"./pageThree.html\", \"3. Zombies\");\n  navBar.appendChild(navElementThree);\n  var navElementFour = createNavElement(\"./pageFour.html\", \"4. Aliens\");\n  navBar.appendChild(navElementFour);\n  var navElementFive = createNavElement(\"./pageFive.html\", \"5. Tiempo\");\n  navBar.appendChild(navElementFive);\n  var navElementSix = createNavElement(\"./pageSix.html\", \"6. Fin\");\n  navBar.appendChild(navElementSix);\n  return navBar;\n}\nfunction createNavElement(path, name) {\n  var navElement = document.createElement(\"li\");\n  var link = document.createElement(\"a\");\n  link.setAttribute(\"href\", path);\n  link.innerHTML = name;\n  navElement.appendChild(link);\n  return navElement;\n}\nfunction createNavButtons(prevPath, nextPath) {\n  var navBar = document.createElement(\"ul\");\n  navBar.setAttribute(\"class\", \"navbar\");\n  var navElementOne = createNavElement(prevPath, \"Anterior\");\n  navBar.appendChild(navElementOne);\n  var navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\n  navBar.appendChild(navElementHome);\n  var navElementTwo = createNavElement(nextPath, \"Siguiente\");\n  navBar.appendChild(navElementTwo);\n  return navBar;\n}\n\n//# sourceURL=webpack://code/./src/JS/utils.js?");
+
+/***/ }),
+
+/***/ "./src/sixIndex.js":
+/*!*************************!*\
+  !*** ./src/sixIndex.js ***!
+  \*************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_JS_pageSix_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/JS/pageSix.js */ \"./src/JS/pageSix.js\");\n/* harmony import */ var _CSS_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CSS/style.css */ \"./src/CSS/style.css\");\n\n\n(0,_src_JS_pageSix_js__WEBPACK_IMPORTED_MODULE_0__.runSix)();\n\n//# sourceURL=webpack://code/./src/sixIndex.js?");
+
+/***/ }),
+
 /***/ "./res/rocket.png":
 /*!************************!*\
   !*** ./res/rocket.png ***!
@@ -97,36 +127,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack://code/./src/CSS/style.css?");
-
-/***/ }),
-
-/***/ "./src/JS/pageSix.js":
-/*!***************************!*\
-  !*** ./src/JS/pageSix.js ***!
-  \***************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"runSix\": () => (/* binding */ runSix)\n/* harmony export */ });\n/* harmony import */ var _JS_utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../JS/utils */ \"./src/JS/utils.js\");\n/* harmony import */ var _res_rocket_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../res/rocket.png */ \"./res/rocket.png\");\n// JavaScript pagina 6\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst runSix = () => {\r\n\tlet navBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavBar)();\r\n\tdocument.body.appendChild(navBar);\r\n\r\n\tlet title = document.createElement(\"div\");\r\n\ttitle.setAttribute(\"class\",\"title_background\");\r\n\tlet titleText = document.createElement(\"h1\");\r\n\ttitleText.setAttribute(\"class\",\"title\");\r\n\ttitleText.innerHTML = \"Desenlace\";\r\n\ttitle.appendChild(titleText);\r\n\tdocument.body.appendChild(title);\r\n\r\n\tlet text = document.createElement(\"p\");\r\n\tlet boldText = document.createElement(\"b\");\r\n\tboldText.innerText = \"Al volver pude verme a m� mismo salir de mi casa por primera vez (cuando me encontr� a Manchas). As� que sin meditarlo fui al lado m�o y me dispar� en la cabeza, ya que no pueden haber dos versiones de m� al mismo tiempo. Luego tom� un lanzacohetes y con �l destru� la nave espacial cuando vino. Finalmente, volv� a mi casa, recog� la basura, enterr� mi cuerpo y me acost� tranquilamente luego de un d�a tan agitado.\";\r\n\ttext.appendChild(boldText);\r\n\tdocument.body.appendChild(text);\r\n\r\n\tlet profilePic = document.createElement(\"img\");\r\n\tprofilePic.setAttribute(\"src\",_res_rocket_png__WEBPACK_IMPORTED_MODULE_1__.default);\r\n\tprofilePic.setAttribute(\"alt\",\"Imagen de Perfil\");\r\n\tprofilePic.setAttribute(\"class\",\"rocket\");\r\n\tdocument.body.appendChild(profilePic);\r\n\r\n\tlet titleTwo = document.createElement(\"div\");\r\n\ttitleTwo.setAttribute(\"class\",\"title_background\");\r\n\tlet titleTextTwo = document.createElement(\"h1\");\r\n\ttitleTextTwo.setAttribute(\"class\",\"title\");\r\n\ttitleTextTwo.innerHTML = \"Fin?\";\r\n\ttitleTwo.appendChild(titleTextTwo);\r\n\tdocument.body.appendChild(titleTwo);\r\n\r\n\tlet bottomNavBar = (0,_JS_utils__WEBPACK_IMPORTED_MODULE_0__.createNavButtons)(\"./pageFive.html\",\"./index.html\");\r\n\tdocument.body.appendChild(bottomNavBar);\r\n}\n\n//# sourceURL=webpack://code/./src/JS/pageSix.js?");
-
-/***/ }),
-
-/***/ "./src/JS/utils.js":
-/*!*************************!*\
-  !*** ./src/JS/utils.js ***!
-  \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"createNavBar\": () => (/* binding */ createNavBar),\n/* harmony export */   \"createNavElement\": () => (/* binding */ createNavElement),\n/* harmony export */   \"createNavButtons\": () => (/* binding */ createNavButtons)\n/* harmony export */ });\n/* harmony import */ var _src_index_html__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../src/index.html */ \"./src/index.html\");\n/* harmony import */ var _src_HTML_pageOne_html__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../src/HTML/pageOne.html */ \"./src/HTML/pageOne.html\");\n/* harmony import */ var _src_HTML_pageTwo_html__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../src/HTML/pageTwo.html */ \"./src/HTML/pageTwo.html\");\n/* harmony import */ var _src_HTML_pageThree_html__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../src/HTML/pageThree.html */ \"./src/HTML/pageThree.html\");\n/* harmony import */ var _src_HTML_pageFour_html__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../src/HTML/pageFour.html */ \"./src/HTML/pageFour.html\");\n/* harmony import */ var _src_HTML_pageFive_html__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../src/HTML/pageFive.html */ \"./src/HTML/pageFive.html\");\n/* harmony import */ var _src_HTML_pageSix_html__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../src/HTML/pageSix.html */ \"./src/HTML/pageSix.html\");\n// Utilities\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nfunction createNavBar(){\r\n\tlet navBar = document.createElement(\"ul\");\r\n\tnavBar.setAttribute(\"class\",\"navbar\");\r\n\r\n\tlet navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\r\n\tnavBar.appendChild(navElementHome);\r\n\r\n\tlet navElementOne = createNavElement(\"./pageOne.html\", \"1. Manchas\");\r\n\tnavBar.appendChild(navElementOne);\r\n\t\r\n\tlet navElementTwo = createNavElement(\"./pageTwo.html\", \"2. Elevador\");\r\n\tnavBar.appendChild(navElementTwo);\r\n\r\n\tlet navElementThree = createNavElement(\"./pageThree.html\", \"3. Zombies\");\r\n\tnavBar.appendChild(navElementThree);\r\n\r\n\tlet navElementFour = createNavElement(\"./pageFour.html\", \"4. Aliens\");\r\n\tnavBar.appendChild(navElementFour);\r\n\r\n\tlet navElementFive = createNavElement(\"./pageFive.html\", \"5. Tiempo\");\r\n\tnavBar.appendChild(navElementFive);\r\n\r\n\tlet navElementSix = createNavElement(\"./pageSix.html\", \"6. Fin\");\r\n\tnavBar.appendChild(navElementSix);\r\n\r\n\r\n\treturn navBar;\r\n}\r\n\r\nfunction createNavElement(path, name){\r\n\tlet navElement = document.createElement(\"li\");\r\n\tlet link = document.createElement(\"a\");\r\n\tlink.setAttribute(\"href\", path);\r\n\tlink.innerHTML = name;\r\n\tnavElement.appendChild(link);\r\n\t\r\n\treturn navElement;\r\n}\r\n\r\nfunction createNavButtons(prevPath, nextPath){\r\n\tlet navBar = document.createElement(\"ul\");\r\n\tnavBar.setAttribute(\"class\", \"navbar\");\r\n\r\n\tlet navElementOne = createNavElement(prevPath, \"Anterior\");\r\n\tnavBar.appendChild(navElementOne);\r\n\r\n\tlet navElementHome = createNavElement(\"./index.html\", \"Pagina Principal\");\r\n\tnavBar.appendChild(navElementHome);\r\n\t\r\n\tlet navElementTwo = createNavElement(nextPath, \"Siguiente\");\r\n\tnavBar.appendChild(navElementTwo);\r\n\r\n\treturn navBar;\r\n}\r\n\r\n\n\n//# sourceURL=webpack://code/./src/JS/utils.js?");
-
-/***/ }),
-
-/***/ "./src/sixIndex.js":
-/*!*************************!*\
-  !*** ./src/sixIndex.js ***!
-  \*************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _src_JS_pageSix_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../src/JS/pageSix.js */ \"./src/JS/pageSix.js\");\n/* harmony import */ var _CSS_style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CSS/style.css */ \"./src/CSS/style.css\");\n\r\n\r\n\r\n(0,_src_JS_pageSix_js__WEBPACK_IMPORTED_MODULE_0__.runSix)();\n\n//# sourceURL=webpack://code/./src/sixIndex.js?");
 
 /***/ })
 
